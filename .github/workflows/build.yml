@@ -57,7 +57,7 @@ jobs:
       uses: docker/build-push-action@v6.7.0
       with:
           push: true
-          tags: personal-portfolio:latest
+          tags: ${{ var.DockerHub_URL}}
 
   
            

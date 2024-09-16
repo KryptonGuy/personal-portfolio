@@ -57,7 +57,7 @@ jobs:
       uses: docker/build-push-action@v6.7.0
       with:
           push: true
-          tags: ${{ var.DockerHub_URL}}
+          tags: ${{ vars.DockerHub_URL}}
 
   
            
